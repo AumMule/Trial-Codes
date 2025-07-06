@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Omaha;
+    src: url("./OmahaBeachRegular-ZVYZl.ttf");
+    font-weight: 100px;
+}
+
+body{
+    font: omaha;
+}
+
+h1{
+    font-family: omaha;
+    font-size: 100px;
+}
