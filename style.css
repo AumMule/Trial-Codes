@@ -6,9 +6,39 @@
 
 body{
     font: omaha;
+    background: #383838;
+}
+.pomodoro-timer h1{
+    font-size: 150px;
+}
+
+.pomodoro-timer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* background: red; */
+}
+
+.pomodoro-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.pomodoro-buttons button{
+    font-size: 20px;
+    padding: 4px 8px;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+.pomodoro-buttons button:active{
+    box-shadow: none;
 }
 
 h1{
-    font-family: omaha;
+    font-family: monospace;
     font-size: 100px;
+    
 }
